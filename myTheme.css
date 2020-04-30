@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Doc */
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    background: url(/images/background.png);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div {
+    /*background: url(/images/background.jpg);*/
+}
+
+/* Navigation styles */
+nav {
+    width: 100%;
+}
+    
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444;
+    text-align: center;
+}
+
+nav li {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #393434;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    padding: 4px;
+    font-weight: bold;
+    width: 120px;
+}
+    
+nav a:hover, a:active {
+    background-color: #000000;
+}
+
+@media screen and (max-width: 960px) {
+    /* stuff for up to 960px width screen 
+    #wrapper {
+        width: 100%;
+    }*/
+}
