@@ -1,6 +1,6 @@
 # Chowder Website
 
-Repository for my personal website. Can also be accessed via https://ericchau.net via http forwarding.
+Repository for my personal website. Can also be accessed via ericchau.net via http forwarding.
 
 ## Background
 
