@@ -1,10 +1,10 @@
 # Chowder Website
 
-Repository for my personal website
+Repository for my personal website. Can also be accessed via https://ericchau.net via http forwarding.
 
-## Backgroudn
+## Background
 
-Initially created for exploring React library/framework and introduction to front end
+Initially created for exploring React library/framework and introduction to front end. This site was designed from scratch in order to explore vanilla HTML/CSS from ground up, and also so it felt like it was 100% my own work.
 
 ### Prerequisites
 
