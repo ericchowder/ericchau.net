@@ -87,3 +87,18 @@ nav a:hover, a:active {
     text-align: center;/*
     left: 35%;*/
 }
+
+/* *** Resume *** */
+.resume{
+    text-align: center;
+}
+
+/* *** About Me *** */
+.about{
+    text-align: center;
+}
+
+/* *** Contact *** */
+.contact{
+    text-align: center;
+}
