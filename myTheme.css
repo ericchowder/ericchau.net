@@ -99,6 +99,11 @@ nav a:hover, a:active {
 }
 
 /* *** Contact *** */
-.contact{
+.contact_header{
+    text-align: center;
+}
+
+.contact_logos{
+    filter: invert(1);
     text-align: center;
 }
