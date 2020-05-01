@@ -103,7 +103,23 @@ nav a:hover, a:active {
     text-align: center;
 }
 
+.contact_body{
+    transform: translate(10%, 100%) scale(1.2,1.2);
+}
+
 .contact_logos{
-    filter: invert(1);
+    filter: invert(1); /* changes logo colour from black to white */
     text-align: center;
+}
+
+.contact_links{
+    position: absolute;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.contact_links:hover, .contact_links:active{
+    color: #BBB;
 }
