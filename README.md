@@ -14,3 +14,13 @@ Languages used so far:
 - HTML
 - CSS
 ```
+
+### To-do's
+
+```
+- finish up resume, about me, and contact tabs
+- add logo
+- mobile friendly
+- implement bootstrap
+- implement react
+```
