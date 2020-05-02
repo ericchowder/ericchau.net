@@ -18,7 +18,8 @@ Languages used so far:
 ### To-do's
 
 ```
-- finish up resume, about me, and contact tabs
+- finish about me
+- fill resume section
 - add logo
 - mobile friendly
 - implement bootstrap
