@@ -82,11 +82,18 @@ nav a:hover, a:active {
 }
 
 /* *** Porfolio *** */
+.portfolioBody{
+    text-align: center;
+}
+/*
 .Eternity{
     position: center;
-    text-align: center;/*
-    left: 35%;*/
+    text-align: center;
 }
+
+.capstone{
+    text-align: center;
+}*/
 
 /* *** Resume *** */
 .resume{
