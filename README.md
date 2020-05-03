@@ -18,8 +18,9 @@ Languages used so far:
 ### To-do's
 
 ```
-- finish about me
 - fill resume section
+- about me section figure tags make it left justified and idk why
+- MAKE IT DYNAMIC (developed on 1920x1080, anything smaller and it looks dumb)
 - add logo
 - mobile friendly
 - implement bootstrap
