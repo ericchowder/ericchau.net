@@ -106,13 +106,13 @@ nav a:hover, a:active {
     align-items: center;
     padding: 10px;
 }
-
+/* if include this, change text1 to 50px
 .hkPigImg{
     padding:50px;
 }
-
+*/
 .aboutText1{
-    padding: 50px;
+    padding: 100px;
 }
 
 .ironRingFig{
@@ -120,13 +120,13 @@ nav a:hover, a:active {
     align-items: center;
     padding: 10px;
 }
-
+/* if include this, change text2 to 50px
 .ironRingImg{
     padding: 50px;
 }
-
+*/
 .aboutText2{
-    padding: 50px;
+    padding: 100px;
 }
 
 /* *** Contact *** */
