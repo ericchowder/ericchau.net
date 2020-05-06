@@ -70,6 +70,12 @@ nav a:hover, a:active {
     border: 2px solid white;
 }
 
+.logo{
+    position: absolute;
+    left: 0;
+    padding: 20px;
+}
+
 @media screen and (max-width: 960px) {
     /* stuff for up to 960px width screen 
     #wrapper {
