@@ -9,6 +9,7 @@ body {
     background: url(/images/background.png);
     background-repeat: no-repeat;
     background-size: 1920px 1080px;
+    background-repeat: repeat-y;
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
 }
