@@ -124,24 +124,25 @@ nav a:hover, a:active {
     text-align: center;
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 414px){
     .capstone img{
-        transform: scale(0.7,0.7) translate(-15%);
+        width: 100%;
+        height: auto;
     }
     
     .LEDprism img{
-        transform: scale(0.7,0.7) translate(-15%);
+        width: 100%;
+        height: auto;
     }
 }
-/*
-.Eternity{
-    position: center;
-    text-align: center;
-}
 
-.capstone{
-    text-align: center;
-}*/
+/* *** Eternity *** */
+@media only screen and (max-width: 414px){
+    .Eternity iframe{
+        width: calc(100%);
+        height: auto;
+    }
+}
 
 /* *** Resume *** */
 .resume{
@@ -181,6 +182,12 @@ nav a:hover, a:active {
 .aboutText2{
     padding: 100px;
     max-width: 800px;
+}
+
+@media only screen and (max-width: 414px){
+    .about{
+        width: 100%;
+    }
 }
 
 /* *** Contact *** */
