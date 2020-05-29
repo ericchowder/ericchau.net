@@ -159,34 +159,36 @@ nav a:hover, a:active {
     align-items: center;
     padding: 10px;
 }
-/* if include this, change text1 to 50px
-.hkPigImg{
-    padding:50px;
-}
-*/
-.aboutText1{
-    padding: 100px;
-    max-width: 800px;
-}
 
 .ironRingFig{
     display: flex;
     align-items: center;
     padding: 10px;
 }
-/* if include this, change text2 to 50px
+
+/* if include this, change figcaption to 50px
 .ironRingImg{
     padding: 50px;
 }
 */
-.aboutText2{
+.about_body figcaption{
     padding: 100px;
     max-width: 800px;
 }
 
 @media only screen and (max-width: 414px){
-    .about{
+    .about_img{
         width: 100%;
+        height: auto;
+    }
+    .hkPigFig{
+        display: block;
+    }
+    .ironRingFig{
+        display: block;
+    }
+    .about_body figcaption{
+        padding: 0px;
     }
 }
 
@@ -210,6 +212,15 @@ nav a:hover, a:active {
     font-size: 25px;
     color: white;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 414px){
+    .contact_body{
+        transform: scale(1,1);
+    }
+    .contact_links{
+        font-size: 20px;
+    }
 }
 
 .contact_links:hover, .contact_links:active{
