@@ -14,8 +14,14 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-@media only screen and (max-width: 1080px){
-
+/* Standard resolutions, default is 1920px */
+@media only screen and (max-width: 1680px){
+}
+@media only screen and (max-width: 736px){
+}
+@media only screen and (max-width: 480px){
+}
+@media only screen and (max-width: 360px){
 }
 
 /* Navigation styles */
@@ -75,32 +81,6 @@ nav a:hover, a:active {
     border: 2px solid white;
 }
 
-@media only screen and (max-width: 1080px){
-    .title h1{
-        font-size: 40px;
-        height: 40px;
-    }
-
-    .title_links{
-        font-size: 20px;
-        transform: translate(-50%);
-        border: 2px solid white;
-    }
-}
-
-@media only screen and (max-width: 360px){
-    .title h1{
-        font-size: 30px;
-        height: 40px;
-    }
-
-    .title_links{
-        font-size: 20px;
-        transform: translate(-15%);
-        border: 2px solid white;
-    }
-}
-
 .logo{
     position: fixed;
     left: 0;
@@ -114,11 +94,23 @@ nav a:hover, a:active {
     text-align: center;
 }
 
-@media screen and (max-width: 960px) {
-    /* stuff for up to 960px width screen 
-    #wrapper {
-        width: 100%;
-    }*/
+@media only screen and (max-width: 360px){
+    .title h1{
+        font-size: 30px;
+        transform: scale(1.4,1.4);
+    }
+
+    .title_links{
+        transform: translate(-15%);
+    }
+
+    .logo{
+        transform: scale(0.8,0.8);
+    }
+
+    .footer{
+        font-size: 14px;
+    }
 }
 
 /* *** Porfolio *** */
